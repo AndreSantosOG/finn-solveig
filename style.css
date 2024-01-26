@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --bg-page:#FFF;
+    --color-text:#000;
+    --color-span:#D2F65A;
+    --bg-app:#FFF;
+    --bg-block:#F8F8F8;
+    --color-p:#191919;
+}
+.page,.pageTwo {
+    font-size: 1.6rem;
+    max-width: 1200px;
+    background-color: var(--bg-page);
+    margin: 0 auto;
+    color: var(--color-text);
+    font-family: 'Clash Display', sans-serif;
+    padding: 0 1rem 0 1rem;
+}
+.title .title-main {
+    width:100%;
+}
+.title .subtitle {
+    margin-top: .2rem;
+    margin-left: -.23rem;
+    font-weight: 500;
+    line-height: 5.76rem;
+    font-size: 3.1rem;
+    margin-bottom: 11.6rem;
+}
+.container-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 6.8rem;
+    margin-bottom: 14rem;
+    margin-left: 8rem;
+}
+.container-logos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 5rem;
+}
+.box-logo0 {
+    width: 12%;
+}
+
+.img1 {
+    width: 7%;
+}
+.img2 {
+    width: 10%;
+}
+.img3 {
+    width: 4%;
+}
+.img4 {
+    width: 6%;
+}
+.img5 {
+    width: 10%;
+}
+.img-logo {
+    margin-left: 10.5rem;
+}
+.box {
+    border-top:2px solid #000;
+    padding-right: 3.4%;
+} 
+.box .type {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3rem;
+    letter-spacing: .2px;
+    margin-top: 1.5rem;
+    margin-bottom: .8rem ;
+    
+}
+.first_span {
+    color: var(--color-span);
+}
+.box .value {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6rem;
+    letter-spacing: 1px;
+}
+.pageTwo {
+    padding: 7rem 7rem;
+    
+    display: flex;
+    gap: 25%;
+
+    position: relative;
+
+}
+.imgDesigner{
+    position: absolute;
+    max-width: 15rem;
+    bottom: 7rem;
+    width: 100%;
+    display: flex;
+    padding-right: 1.6rem;
+    align-items: center;
+    gap: 1.6rem;
+   }
+.finn {
+    width:40%;
+    height: 10%;
+}
+.finnH1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.finnP {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(25, 25, 25, 0.70);
+    white-space: nowrap;
+}
+
+.grid-left {
+    margin-top: 4rem;
+    flex-direction: column;
+    height: 100%;
+
+}
+.title-main-page2 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    letter-spacing: 1px;    
+}
+.imgRose {
+    width: 10%;
+}
+.grid-right {
+    margin-top: 4rem;
+    width: 75%;
+    height: 80%;
+}
+.blockOne,.blockTwo,.blockThree {
+    background: var(--bg-block);
+    position: relative;
+    padding: 3rem;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2rem;
+}
+.blockThree {
+    margin-bottom: 0;
+}
+.imgBadge {
+    position: absolute;
+    height: 40%;
+    left: 90%;
+    bottom: 75%;
+}
+.titleOne,.titleTwo,.titleThree {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.2rem;
+    color: var(--color-h);
+    font-weight: 500;
+    line-height: 3.84rem;
+    letter-spacing: 1px;
+}
+
+.descrition {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--color-p);
+}
+
+@media(max-width:1080px) {
+    .container-stats{
+        flex-flow: row wrap;
+    }
+    .box2 {
+        margin-left: -3rem;
+    }
+    .img0 {
+        height: 1rem;
+    }
+    .img3 {
+        height: 3rem;
+    }
+    .img4 {
+        height: 2rem;
+    }
+    .img-logo {
+        margin-left: 12%;
+    }
+    .box-logo0 {
+        width: 10%;
+    }
+    .pageTwo {
+        gap: 0;
+    }
+    .imgDesigner {
+        width: 40%;
+    }
+    .distance {
+        gap: 32.7rem;
+    }
+}
+@media(max-width: 800px) {
+    .subtitle {
+        margin-bottom: 7rem;
+    }
+    .container-stats{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .container-logos{
+        margin-top: -5rem;
+        margin-bottom: 5rem;
+    }
+    .img3 {
+        height: 2.5rem;
+    }
+    .img-logo {
+        width: 10%;
+        margin-left: 8%;
+    }
+    .box-logo0 {
+        width: 17%;
+        margin-left: -5rem;
+    }
+    .box2 {
+        margin-left: 0;
+    }
+    .pageTwo {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        position: static;
+    }
+    .grid-left {
+        margin: 0;
+    }
+    .imgDesigner {
+        position: static;
+        margin: 4rem 20rem;
+    }
+    .finn {
+        width:100%;
+    }
+    .finnH1 {
+        font-size: 2rem;
+    }
+    .finnP {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .imgRose {
+        margin-left: 2rem;
+    }
+    .title-main-page2 {
+        font-size: 7rem;
+        line-height: 7rem;
+        letter-spacing: 3px; 
+        margin-left: 4rem;   
+    }
+    .distance {
+        align-items: center;
+    }
+}
+@media(max-width: 540px) {
+    .container-stats{
+        flex-direction: column;
+        border-width: 30rem 0;
+        align-items: center;
+    }
+    .box {
+        width: 20rem;
+    }
+    .container-logos{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
+    .title-main {
+        margin-left: 0;
+    }
+    .img0 {
+       height: 15%; 
+       margin-left: -3rem;
+    }
+    .box-logo0 {
+        width: 0%;
+        margin-bottom: 5rem;
+    }
+    .img-logo {
+        width: 25%; 
+        margin-bottom: 5rem;
+    }
+    .title-main-page2 {
+        margin-left: 10rem;
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+    .imgRose {
+        margin-left: 9.5rem;
+    }
+    .imgDesigner {
+        width: 100%;
+        margin-left: 15rem;
+        margin-bottom: 5rem;
+    }
+
+    .imgBadge {
+        height: 30%;
+        left: 87%;
+        bottom: 85%;
+    }
+
+}
