@@ -42,32 +42,32 @@
 .container-logos {
     display: flex;
     flex-direction: row;
-    margin-left: 8rem;
+    margin-left: 7.5rem;
     align-items: center;
-    width: 85%;
+    gap: 29%;
     margin-bottom: 5rem;
+    width: 80%;
 }
 .box-logo0 {
-    width: 12%;
+    width: 18%;
 }
-
+.img0 {
+    height: 1rem;
+}
 .img1 {
-    width: 7%;
+    height: 2rem;
 }
 .img2 {
-    width: 10%;
+    height: 2rem;
 }
 .img3 {
-    width: 4%;
+    height: 2.5rem;
 }
 .img4 {
-    width: 6%;
+    height: 2rem;
 }
 .img5 {
-    width: 10%;
-}
-.img-logo {
-    margin-left: 10.5rem;
+    height: 2rem;
 }
 .box {
     border-top:2px solid #000;
@@ -181,6 +181,16 @@
     line-height: 3.84rem;
     letter-spacing: 1px;
 }
+.groupOne,.groupTwo,.groupThree {
+    display: flex;
+    align-items: center;
+    max-width: 12rem;
+    gap: 13rem;
+}
+.groupOne {
+    gap: 19rem;
+}
+
 
 .descrition {
     font-family: 'Inter', sans-serif;
@@ -192,26 +202,22 @@
 }
 
 @media(max-width:1080px) {
-    .container-stats{
+    .container-stats {
         flex-flow: row wrap;
     }
     .box2 {
         margin-left: -3rem;
     }
-    .img0 {
-        height: 1rem;
+    .container-logos {
+        gap: 28%;
+        margin-left: 6.5rem;
     }
-    .img3 {
-        height: 3rem;
+    .groupOne,.groupTwo,.groupThree {
+        max-width: 10rem;
+        gap: 7rem;
     }
-    .img4 {
-        height: 2rem;
-    }
-    .img-logo {
-        margin-left: 12%;
-    }
-    .box-logo0 {
-        width: 10%;
+    .groupOne {
+        gap: 14rem;
     }
     .pageTwo {
         gap: 0;
@@ -237,23 +243,24 @@
         width: 30%;
     }
     .container-logos{
-        margin-top: -5rem;
+        margin-top: -9rem;
         margin-bottom: 5rem;
-        flex-flow: row wrap;
         width: 100%;
-        
+        margin-left: 0;
+        justify-content: center;
+        gap: 26%;
     }
-    .img3 {
-        height: 2rem;
-    }
-    .img-logo {
-        width: 25%;
-        height: 2.5rem;
-        margin-left: 4%;
+    .groupOne,.groupTwo,.groupThree {
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 2rem;
     }
-    .box-logo0 {
-        width: 17%;
+    .groupThree {
+        margin-right: 1rem;
+    }
+    .img1 {
+        margin-left: 8rem;
     }
     .box2 {
         margin-left: 0;
@@ -304,26 +311,21 @@
         width: 20rem;
     }
     .container-logos{
+       align-items: center;
+       justify-content: center;
+       gap: 15%;
+       margin-left: -2rem;
+    }
+    .groupOne,.groupTwo,.groupThree {
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        margin-left: 0rem;
-        margin-bottom: 2rem;
+    }
+    .groupThree {
+        margin-left: -4rem;
     }
     .title-main {
         margin-left: 0;
-    }
-    .img0 {
-       height: 15%; 
-       margin-left: -3rem;
-    }
-    .box-logo0 {
-        width: 0%;
-        margin-bottom: 5rem;
-    }
-    .img-logo {
-        width: 25%; 
-        margin-bottom: 5rem;
     }
     .title-main-page2 {
         margin-left: 10rem;
