@@ -29,6 +29,11 @@
     color: var(--color-text);
     padding: 0 2rem 0 2rem;
 }
+.grid-banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
 .title .title-main {
     width:100%;
 }
