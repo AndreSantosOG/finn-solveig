@@ -387,7 +387,7 @@ body,button,input {
     margin: 3.2rem auto;
   }
 
-.buttonMenu {
+.buttonMenu,.buttonFooter {
     padding: 1.4rem 1.8rem;
     display: flex;
     align-items: center;
@@ -406,7 +406,9 @@ body,button,input {
     
   }
 .buttonMenu:hover,
-.buttonMenu:active {
+.buttonMenu:active,
+.buttonFooter:hover,
+.buttonFooter:active {
     filter: brightness(80%);
   }
 .retangle {
@@ -414,6 +416,65 @@ body,button,input {
     height: .1rem;
     background-color: var(--color-text);
   }
+.footerMenu {
+    width: 100%;
+    padding: 0 5rem;
+    padding: 6.4rem;
+  }
+.informations {
+    display: flex;
+}
+.footerLogo {
+    width: 50%;
+    height: 23.5rem;
+    margin-right: 4.8rem;
+}
+.options {
+    display: flex;
+    width: 50%;
+    height: 23.5rem;
+    justify-content: space-between;
+}
+.footerPages,.footerUtilitypages {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.titleFooter {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+.linkFooter {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    letter-spacing: .2rem;
+    color: var(--bg-app);
+}
+.made {
+    margin-top: 11rem;
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: var(--bg-page);
+}
+.subnav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.footerA {
+    font-weight: 300; 
+}
 
   /* ANIMAÇÕES */
 
