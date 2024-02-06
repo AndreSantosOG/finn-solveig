@@ -13,6 +13,9 @@
     --color-p:#191919;
     --color-subtitle:#191919b3;
 }
+body,button,input {
+    font-family: 'Clash Display', sans-serif;
+}
 .page,.pageTwo {
     font-size: 1.6rem;
     max-width: 1200px;
@@ -33,6 +36,26 @@
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+}
+.pageFour {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Clash Display', sans-serif;
+    background-color: var(--color-text);
+    color: var(--bg-app);
+    padding: 0 2rem 0 2rem;
+}
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 12rem 0 17rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 .title .title-main {
     width:100%;
@@ -354,6 +377,42 @@
         animation: animate2 40s -20s linear infinite;
       }
     }
+  }
+
+.titleMenu{
+    font-size: 9.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 3.2rem auto;
+  }
+
+.buttonMenu {
+    padding: 1.4rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--color-span);
+    border: none;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    
+  }
+.buttonMenu:hover,
+.buttonMenu:active {
+    filter: brightness(80%);
+  }
+.retangle {
+    width: 1.6rem;
+    height: .1rem;
+    background-color: var(--color-text);
   }
 
   /* ANIMAÇÕES */
